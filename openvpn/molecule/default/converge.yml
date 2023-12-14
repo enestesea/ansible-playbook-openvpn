@@ -3,6 +3,6 @@
   hosts: all
   gather_facts: false
   tasks:
-    - name: "Include role.openvpn"
+    - name: "Include openvpn"
       ansible.builtin.include_role:
-        name: "role.openvpn"
+        name: "openvpn"
